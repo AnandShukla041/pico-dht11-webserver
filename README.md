@@ -3,19 +3,6 @@
 
 This project uses a **Raspberry Pi Pico W** and a **DHT11 temperature and humidity sensor** to create a real-time webserver that displays sensor data on your local Wi-Fi network.
 
-## 📷 Project Setup
-
-### Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)
-
-### Live Setup
-![Live Hardware](images/live_setup.jpg)
-
----
-
-## 🎬 Demo Video
-
-📽️ [Click to Watch Demo](video/raspberry-pi-webserver.mp4)
 
 ---
 
@@ -59,4 +46,31 @@ This project uses a **Raspberry Pi Pico W** and a **DHT11 temperature and humidi
 
 ## 🌐 Web Output Preview
 
-> Sample Output:
+> Sample Output:Temperature: 27°C
+                 Humidity: 68%
+
+Auto-refreshes every 5 seconds.
+
+---
+
+## 🧠 Project Author
+
+**Anand Shukla**  
+Intern @ Spectronic | Data Analyst Intern @ Coding Samurai  
+GitHub: [@AnandShukla041](https://github.com/AnandShukla041)
+
+---
+
+## 📢 Share & Connect
+
+If you like this project, feel free to ⭐️ it and connect on [LinkedIn](https://www.linkedin.com/in/anandshukla041).
+
+"""
+
+# Save the updated README.md
+readme_path = "/mnt/data/README.md"
+with open(readme_path, "w") as f:
+    f.write(readme_content.strip())
+
+readme_path
+
