@@ -67,10 +67,5 @@ If you like this project, feel free to ⭐️ it and connect on [LinkedIn](https
 
 """
 
-# Save the updated README.md
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w") as f:
-    f.write(readme_content.strip())
 
-readme_path
 
